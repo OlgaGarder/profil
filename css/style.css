@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.content {
+  margin-top: 80px;
+}
+
+.content_inform-text {
+  position: relative;
+  right: 15px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333;
+}
+
+.content_inform-text img {
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
+
+.content_inform-text span {
+  position: relative;
+  left: 15px;
+}
+
+.content_attention {
+  width: 473px;
+  height: 90px;
+  background: rgba(251, 217, 44, 0.16);
+  border-radius: 0px 4px 4px 0px;
+  position: relative;
+  right: 98px;
+}
+
+.content_attention-title {
+  position: relative;
+  left: 98px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333;
+  padding-top: 20px;
+}
+
+.content_attention-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content_attention-block-text {
+  position: relative;
+  left: 98px;
+  bottom: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  color: #333333;
+  width: 314px;
+}
+
+.content_attention-block img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 118px;
+  bottom: 12px;
+}
+
+.content .content_modal .modal_block-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.content .content_modal .modal_block-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 37px;
+  margin-left: -20px;
+}
+
+.content .content_modal .modal_grid {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 20px;
+}
+
+.content .content_modal .modal_grid label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  position: relative;
+  top: 20px;
+  left: 12px;
+}
+
+.content .content_modal .modal_grid input {
+  padding-top: 20px;
+  padding-left: 12px;
+  border: none;
+  width: 400px;
+  height: 50px;
+  background: #F8F7FA;
+  border-radius: 2px;
+}
+
+.content .content_modal .modal_descr {
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+.content .content_modal .modal_descr input {
+  width: 1270px;
+  height: 122px;
+  background: #F8F7FA;
+  border-radius: 2px;
+}
+
+.content .content_modal .modal_chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 21px;
+}
+
+.content .content_modal .modal_chek p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #182C40;
+  padding-top: 4px;
+  padding-left: 8px;
+}
+
+.content .content_modal .modal_public {
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+.content .content_modal .modal_public input {
+  width: 1270px;
+  height: 122px;
+  background: #F8F7FA;
+  border-radius: 2px;
+  padding-top: -150px;
+}
+
+.content .content_modal .modal_submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 52px;
+}
+
+.content .content_modal .modal_submit .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .content_modal .modal_submit .modal_btn-blue {
+  background-color: #2f80ed;
+  border: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  width: 216px;
+  height: 45px;
+  color: #fff;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
+  text-decoration: none;
+}
+
+.content .content_modal .modal_submit .modal_btn-blue:hover {
+  color: #fff;
+  background-color: #2974d9;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+}
+
+.content .content_modal .modal_submit .modal_btn-blue:focus {
+  background-color: #2f80ed;
+}
+
+.content .content_modal .modal_submit .modal_btn-blue:active {
+  background-color: #236acb;
+}
+
+.content .content_modal .modal_submit .cancel {
+  width: 92px;
+  height: 45px;
+  background: #E9E9E9;
+  border-radius: 2px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
+  text-decoration: none;
+  border: none;
+}
+
+.content .content_modal .modal_submit .cancel:hover {
+  color: #fff;
+  background-color: #ece7e7;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+}
+
+.content .content_modal .modal_submit .save {
+  width: 231px;
+  height: 45px;
+  background: #E9E9E9;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  bottom: 0px;
+  right: 60px;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1340px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.9);
+}
+/*# sourceMappingURL=style.css.map */

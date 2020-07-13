@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль рабочей группы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="content">
+        <div class="container">
+
+            <h3>Профиль рабочей группы</h3>
+            <p class="content_inform-text"><img src="icon/line.png" alt="line">В данном разделе вы можете посмотреть и отредактировать информацию по своей рабочей группе, настроить права участников, расшарить настройки полностью или частично<br> <span>для других рабочих групп, а также сделать полную копию вашей рабочей группы с ограниченным доступом для тонкой настройки без публичных оповещений.</span></p>
+
+            <h4>Основная информация</h4>
+
+            <div class="content_attention">
+                <p class="content_attention-title">Внимание!</p>
+                <div class="content_attention-block">
+                    <p class="content_attention-block-text">Ваши данные сохранены в браузере, но не отправлены на сервер.
+                        Нажмите кнопку “Отправить”, чтобы завершить редактирование.
+                    </p>
+                    <img src="icon/atten.png" alt="warning">
+                </div>
+            </div>
+
+            <div class="content_modal">
+                <div class="modal_dialog">
+                    <div class="modal_content">
+                        <form action="#">
+                            <div class="modal_block-one">
+                                <div class="modal_grid">
+                                    <label for="#">Название группы</label>
+                                    <input required placeholder="Моя новая рабоча группа" name="name" type="text" class="modal__input">
+                                </div>
+                                <div class="modal_grid">
+                                    <label for="#">Алиас</label>
+                                    <input required placeholder="my-new-workgroup 2" name="name" type="text" class="modal__input">
+                                </div>
+                                <div class="modal_grid">
+                                    <label for="#">Электронная почта для обращений</label>
+                                    <input required placeholder="unfo@my-domen.r" name="name" type="text" class="modal__input">
+                                </div>
+                            </div>
+                            <div class="modal_block-two">
+                                <div class="modal_grid">
+                                    <label for="#">Телефон представителя</label>
+                                    <input required placeholder="+7 (XXX) XXX-XX-XX" name="phone" type="phone" class="modal__input">
+                                </div>
+                                <div class="modal_grid">
+                                    <label for="#">ФИО представителя</label>
+                                    <input required placeholder="Введите полные данные представителя" name="name" type="text" class="modal__input">
+                                </div>
+                                <div class="modal_grid">
+                                    <label for="#">Должность ответственного</label>
+                                    <input required placeholder="Введите полное наименование должности" name="phone" type="phone" class="modal__input">
+                                </div>
+                            </div>
+                            <div class="modal_descr">
+                                <div class="modal_grid">
+                                    <label for="#">Описание рабочей группы для внутреннего использования</label>
+                                    <input required placeholder="" name="name" type="text" class="modal__input">
+                                </div>
+                            </div>
+                            <div class="modal_chek">
+                                <input type="checkbox" style="height:18px; width: 18px;position: relative;top: 12px; border:2px dotted #00f;display:block;background:#ff0000;" />
+                                <p class="modal_text">Публичное описание отличается от внутреннего</p>
+                            </div>
+                            <div class="modal_public">
+                                <div class="modal_grid">
+                                    <label for="#">Публичное описание рабочей группы</label>
+                                    <input required placeholder="Введите краткое и емкое описание" name="name" type="text" class="modal__input">
+                                </div>
+                            </div>
+                            <div class="modal_submit">
+                                <div class="group">
+                                    <button class="modal_btn-blue" data-modal>Отправить на модерацию</button>
+                                    <button class="cancel">Отмена</button>
+                                </div>
+                                <button class="save">Сохранить в мои черновики</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
